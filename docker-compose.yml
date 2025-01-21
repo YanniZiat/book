@@ -3,7 +3,7 @@ version: '3'
 services:
   web:
     build: .
-    command: python app.py
+    command: python exoZ.py
     ports:
       - "80:80"
     restart: always
