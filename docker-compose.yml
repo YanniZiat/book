@@ -5,5 +5,5 @@ services:
     build: .
     command: python exoZ.py
     ports:
-      - "5000:5000"
+      - "80:80"
     restart: always
